@@ -50,7 +50,7 @@ http://localhost:3000 # 前端（可自定义端口号）
 http://localhost:38080 # 后端
 管理员账号：admin@rap2.com，密码需要进入容器内修改
 进入容器：docker exec -it 容器id /bin/bash
-进入mysql：mysql -uroot -proot;
+进入mysql：mysql -uroot -proot
 mysql> use rap2;
 mysql> update Users set password = '0c909a141f1f2c0a1cb602b0b2d7d050' where fullname = 'admin';
 这样admin的密码改为：admin123
